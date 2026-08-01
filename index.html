@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
 </head>
+<body>
 <div class="resume-wrapper">
 	<section class="profile section-padding">
 		<div class="container">
@@ -49,18 +50,22 @@
       </div>
       <div class="clearfix"></div>
       <div class="contact-info clearfix">
-      	<ul class="list-titles">
-      		<li><span class="material-icons">phone</span>Tel</li>
-      		<li><span class="material-icons">email</span><i class="fa-thin fa-envelope"></i>Mail</li>
-      		<li><img style="padding-right: 12px;width: 36px;" src="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico?_nc_eui2=AeFdVeud_Z_71ES0U_QTecfwaBWfmC2eGbdoFZ-YLZ4Zt-lYJM5krCDkCjsQoGGoqFNckl2N8g_7-vcGhI0dnCTQ" data-badged-icon="https://static.xx.fbcdn.net/rsrc.php/ye/r/Ta8_J_nYekI.ico?_nc_eui2=AeEdj7mFb5l1jOjBhz3iOSMht1HapB1ZKpK3UdqkHVkqkuCAxj1iZB307MT0D1cAuOJez7-Z7gcTBlepgapHn7Za" rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico?_nc_eui2=AeFdVeud_Z_71ES0U_QTecfwaBWfmC2eGbdoFZ-YLZ4Zt-lYJM5krCDkCjsQoGGoqFNckl2N8g_7-vcGhI0dnCTQ" /> Facebook</li>
-      		<li><span class="material-icons">house</span>Home</li>
-      	</ul>
-        <ul class="list-content ">
-        	<li>0875476409</li>
-        	<li>y.chaimongkon@gmail.com</li>
-        	<li><a href="#">https://www.facebook.com/tum.yutakom</a></li>
-        	<li>35/9 Moo. 3 Banglen Bangyai Nonthaburi 11140</li>
-        </ul>
+        <div class="contact-row">
+          <div class="list-titles"><span class="material-icons">phone</span>Tel</div>
+          <div class="list-content">0875476409</div>
+        </div>
+        <div class="contact-row">
+          <div class="list-titles"><span class="material-icons">email</span><i class="fa-thin fa-envelope"></i>Mail</div>
+          <div class="list-content">y.chaimongkon@gmail.com</div>
+        </div>
+        <div class="contact-row">
+          <div class="list-titles"><img style="padding-right: 12px;width: 36px;" src="static/Facebook_Logo_Primary.png"/> Facebook</div>
+          <div class="list-content"><a href="#">https://www.facebook.com/tum.yutakom</a></div>
+        </div>
+        <div class="contact-row">
+          <div class="list-titles"><span class="material-icons">house</span>Home</div>
+          <div class="list-content">35/9 Moo. 3 Banglen Bangyai Nonthaburi 11140</div>
+        </div>
       </div>
       <div class="contact-presentation">
         <h3>Education</h3>
@@ -70,13 +75,13 @@
 
       <div class="contact-presentation">
         <h3>Other skills</h3>
-        <p><span class="bold">Git, GitLab, Jenkins automate build & deploy, jfrog artifactory, Postman, server certificate</span></p>
+        <p><span class="bold">Linux, Git, GitLab, Jenkins automate build & deploy, jfrog artifactory, Postman, server certificate, Kubernetes clusters</span></p>
       </div>
 
       <div class="contact-presentation">
         <h3>Strengths & Weaknesses</h3>
         <p><span class="bold">Tell the truth</span>&nbsp;<span>No one believe me</span></p>
-        <p><span class="bold">Hard working</span>&nbsp;<span>Working like lazy man</span></p>
+        <p><span class="bold">Hard working</span>&nbsp;<span>Always human in loop when vibe code</span></p>
       </div>
       
 	</div>
@@ -87,6 +92,19 @@
   		<h3 class="experience-title">Experience</h3>
       
       <div class="experience-wrapper">
+        <div class="company-wrapper clearfix">
+      		<div class="experience-title">Krungthai Bank Public Company Limited (KTB)</div>
+          <div class="time">Nov 2022 - Apr 2026</div>
+      	</div>
+        
+        <div class="job-wrapper clearfix">
+        	<div class="experience-title">เจ้าหน้าที่อาวุโสพัฒนาและปรับปรุงระบบ</div>
+          <div class="company-description">
+          	<p>Implement and Support Insurance platform (feebaseincome, Krungthai Insurance Platform) (Web application, Web service (microservice), Batch application) Channel NEXT, Branch, e-Solution(Tablet), Insurance agent.(Partner CHUBB, dhipaya(ทิพยประกันภัย),KT-AXA,AXA, KPI(กรุงไทยพานิชประกันภัย)). Maintain work flow CICD auto deploy (gitlab, Jenkins, Rancher for management, deployment, and scaling of multiple Kubernetes clusters). Reporting (Crystal Report,Jasper report). Migration from DB2 to Postgresql, Migration from Oracle to Postgresql and Migration Crystal report to Jasper Report
+            <br/><br/>Implement and Support Lead and Sales (Web application, Web service, Batch application) Selling bank products like loans, mutual funds, and insurance. Reporting (Jasper report)</p> 
+          </div>
+        </div>
+
       	<div class="company-wrapper clearfix">
       		<div class="experience-title">Kasikorn business-technology group (KBTG)</div>
           <div class="time">Mar 2017 - June 2022</div>
@@ -179,7 +197,7 @@
       <div class="section-wrapper clearfix">
         <h3 class="section-title">Hobbies</h3>  <!-- DESCRIPTION OF YOUR HOBBIES -->
         <p>Make an espresso, Dirty, Latte, Americano</p>        
-        <p>Trade crypto currency</p> 
+        <p>Trade crypto currency, Forex, Stock, ETF</p> 
       </div>
       
   	</div>
@@ -187,5 +205,5 @@
   
   <div class="clearfix"></div>
 </div>
-    
+</body>
 </html>
