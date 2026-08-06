@@ -312,7 +312,7 @@ p + p {
   display: grid;
   grid-template-columns: minmax(10rem, 13rem) minmax(0, 1fr);
   gap: 0.15rem 2rem;
-  margin-bottom: 2.8rem;
+  margin-bottom: 1rem;
   min-width: 0;
 }
 
@@ -322,7 +322,7 @@ p + p {
   min-width: 0;
   float: none;
   margin: 0;
-  padding: 0 0 2.2rem;
+  padding: 0 0 1rem;
   text-align: left;
 }
 
@@ -353,7 +353,7 @@ p + p {
   min-width: 0;
   float: none;
   margin: 0;
-  padding: 0 0 2.2rem;
+  padding: 0 0 1rem;
   text-align: left;
 }
 
