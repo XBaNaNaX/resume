@@ -458,7 +458,7 @@ p + p {
 }
 
 .section-wrapper .skill-percentage:nth-child(6)::before {
-  width: 35%;
+  width: 50%;
   animation: skill_6 0.6s ease;
 }
 
